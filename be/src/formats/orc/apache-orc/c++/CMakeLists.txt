@@ -25,6 +25,8 @@ include_directories (
   )
 endif()
 
+set(CMAKE_C_COMPILER gcc)
+
 add_subdirectory(include)
 add_subdirectory(src)
 
